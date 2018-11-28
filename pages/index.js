@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Router from 'next/router';
 
+import "./../static/style.scss";
+
 const indexPage = () => (
   <div>
     <Head>
@@ -10,7 +12,7 @@ const indexPage = () => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <h1>The Main Page</h1>
-    <p>Go to <Link href="/about"><a>About Page</a></Link></p>
+    <p className="example"> Go to <Link href="/about"><a>About Page</a></Link></p>
     <button onClick={() => Router.push('/about')}>Go to about</button>
     <img src="/static/image.jpg" alt="Beautiful image" />
     <style global jsx>{`
