@@ -17,6 +17,14 @@ $ yarn build  #or npm run build
 $ yarn start  #or npm run start
 ```
 
+If you want to run this project as a static app without the need for a Node.js server, you can perform a static HTML export with the command:
+
+```
+$ yarn export
+```
+
+In the root of the project you'll find a new folder called `/out` that you can deploy to any static hosting service.
+
 ## Some additional configurations
 This project uses the `@zeit/next-sass` package to compile and bundle SCSS files. You can enable CSS modules by editing `next.config.js` as follows:
 
