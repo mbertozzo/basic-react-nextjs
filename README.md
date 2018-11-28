@@ -27,4 +27,4 @@ module.exports = withSass({
 })
 ```
 
-For any further customization you can read (the package documentation)[https://github.com/zeit/next-plugins/tree/master/packages/next-sass].
+For any further customization you can read [the package documentation](https://github.com/zeit/next-plugins/tree/master/packages/next-sass).
