@@ -25,6 +25,14 @@ $ yarn export
 
 In the root of the project you'll find a new folder called `/out` that you can deploy to any static hosting service.
 
+### Additional notes on publishing on Netlify
+Link Netlify with a repository hosting the project code, choosing "New site from Git" in Netlify dashboard.  
+
+Then, under "Deploy settings" configure the following properties:
+
+* Build command: yarn export
+* Publish directory: out
+
 ## Some additional configurations
 This project uses the `@zeit/next-sass` package to compile and bundle SCSS files. You can enable CSS modules by editing `next.config.js` as follows:
 
