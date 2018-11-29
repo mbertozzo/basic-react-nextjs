@@ -1,13 +1,13 @@
-import React from 'react';
-import Link from 'next/link';
-import Router from 'next/router';
+import React from 'react'
+import Link from 'next/link'
 
-const indexPage = () => (
-  <div>
-    <h1>The Main Page</h1>
-    <p>Go to <Link href="/about"><a>About Page</a></Link></p>
-    <button onClick={() => Router.push('/about')}>Go to about</button>
+const Index = () => (
+  <div className='container-fluid bg-primary page'>
+    <h1>Hello, world!</h1>
+    <Link href='/about'>
+      <a className='btn btn-light'>About us</a>
+    </Link>
   </div>
-);
+)
 
-export default indexPage;
+export default Index

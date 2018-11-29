@@ -1,18 +1,16 @@
 {
-  "name": "react-nextjs",
+  "name": "with-next-page-transitions",
   "version": "1.0.0",
-  "description": "A demo project to get started with Next.js",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "author": "Matteo Bertozzo",
-  "license": "MIT",
   "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
-  }
+    "next": "latest",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "next-page-transitions": "1.0.0-alpha.2"
+  },
+  "license": "ISC"
 }
